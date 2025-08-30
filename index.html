@@ -7,7 +7,6 @@
 	<meta name="apple-mobile-web-app-capable" content="yes"/>
     <script src="aframe-v1.6.0.min.js"></script>
     <script src="aframe-ar.js"></script>
-	<script src="environment-component.min.js"></script>
     </head>
   
 <body style="margin : 0px; overflow: hidden;">
@@ -16,6 +15,7 @@
 <a-assets>
 <a-asset-item id="modelo_cnc" src="cnc_machine.glb">
 </a-asset-item>
+<img id="sky" src="sky.jpg">
 </a-assets>
   
 <a-entity gltf-model="#modelo_cnc" position="0 0.11 1.5" scale="1 1 1" shadow="cast: true"></a-entity>
@@ -29,4 +29,5 @@
 	
 </body>
   </html>
+
 
